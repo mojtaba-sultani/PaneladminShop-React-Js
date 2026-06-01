@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+}
+body {
+  font-family: "Vazir";
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+:root{
+  --bgBody:#ffffff;
+  --colorText:#000;
+  --bgBox:#f3f4f6;
+  --colorBorder:#e5e7eb;
+}
+.dark{
+  --bgBody:#111827;
+  --colorText:#ffff;
+  --bgBox:#1f2937;
+  --colorBorder:#374151;
+
+}

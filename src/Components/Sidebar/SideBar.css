@@ -1,0 +1,21 @@
+.input-icon::before{
+    content: "";
+    background-image: url('/images/search.png');
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 28px;
+    left: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: translateY(-50%);
+    filter: invert(1);
+}
+/* مخفی کردن اسکرول‌بار */
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
