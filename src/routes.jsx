@@ -10,7 +10,7 @@ import OrderView from "./Pages/Orders/OrderView/OrderView.jsx";
 import OrdersList from "./Pages/Orders/OrdersList/OrdersList.jsx";
 import DetailsProduct from "./Pages/Products/DetailsProduct/DetailsProduct.jsx";
 let routes = [
-    { path: '/dashborad', element: <Dashborad /> },
+    { path: '/', element: <Dashborad /> },
     { path: '/product', element: <AllProductPage /> },
     { path: '/product/new', element: <NewProductPage /> },
     { path: '/product/edit/:productId', element: <EditProduct /> },

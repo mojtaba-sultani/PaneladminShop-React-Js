@@ -44,7 +44,7 @@ export default function Sidebar() {
         <h5 className='bg-[#1a2226] text-[#4b646f] py-2 px-4'>منو</h5>
         <ul className='list-none'>
           <li className='flex items-center py-3 pr-4 pl-2 hover:bg-[#1a2226] cursor-pointer'>
-            <Link to='/dashborad' className='flex gap-1 items-center'>
+            <Link to='/' className='flex gap-1 items-center'>
               <MdDashboard size={16} />
               <span className='text-sm'>داشبورد</span>
             </Link>
